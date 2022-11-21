@@ -1,6 +1,6 @@
-let i = 12
+let i = 1
 
-while (i >= 1) {
-    console.log("2 X", i,"=",2 * 1)
-    i--
+while (i <= 12) {
+    console.log("2 X", i,"=",2 * i)
+    i = i + 1
 }
